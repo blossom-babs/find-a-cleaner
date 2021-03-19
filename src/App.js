@@ -1,10 +1,19 @@
 
+import { BrowserRouter as Router,Switch,Route,} from "react-router-dom";
+import {About, FAC, Home, Signup} from "./pages"
+import {Nav} from "./components"
 
-function App() {
+const App = () => {
   return (
-    <div>
-     <h1>the landind page</h1>
-    </div>
+    <Router>
+    <Nav/>
+    <Switch>
+      <Route exact path="/"><Home/></Route>
+      <Route exact path="/about"><About/></Route>
+      <Route exact path="/fac"><FAC/></Route>
+      <Route exact path="/signin"><Signup/></Route>
+    </Switch>
+    </Router>
   );
 }
 
