@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Source+Sans+Pro&display=swap');
+
+:root{
+  --ff-heading: 'Lora', serif;
+--ff-body: 'Source Sans Pro', sans-serif;
+--clr-base-one:#e52165;
+--clr-base-two:#0d1137;
+--clr-base-three:#e75874;
+--clr-base-four:#be1558;
+--clr-top-one:#fbcbc9 ;
+--clr-top-two:#322514;
+--clr-top-three:#FF9E64;
+--clr-top-three:#FFB98F;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
