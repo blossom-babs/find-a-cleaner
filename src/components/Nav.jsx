@@ -7,10 +7,10 @@ const Nav = () => {
     <nav>
       <h1>FindACleaner</h1>
       <ul>
-        <li><Link>Home</Link></li>
-        <li><Link>About</Link></li>
-        <li><Link>Find A Cleaner</Link></li>
-        <li><button><Link>Login</Link></button></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/fac">Find A Cleaner</Link></li>
+        <li><button><Link to="/signin">Login</Link></button></li>
       </ul>
     </nav>
   )
