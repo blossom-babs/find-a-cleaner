@@ -1,23 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Comic+Neue&family=Source+Sans+Pro&display=swap");
 
-:root{
-  --ff-heading: 'Lora', serif;
---ff-body: 'Source Sans Pro', sans-serif;
---clr-base-one:#e52165;
---clr-base-two:#0d1137;
---clr-base-three:#e75874;
---clr-base-four:#be1558;
---clr-top-one:#fbcbc9 ;
---clr-top-two:#322514;
---clr-top-three:#FF9E64;
---clr-top-three:#FFB98F;
+:root {
+  --ff-heading: "Lora", serif;
+  --ff-body: "Source Sans Pro", sans-serif;
+  --clr-base-one: #e52165;
+  --clr-base-two: #0d1137;
+  --clr-base-dark: #000000;
+  --clr-base-light: #ffffff;
+  --transition-one: 1s ease-in-out;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
 }

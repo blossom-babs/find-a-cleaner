@@ -1,6 +1,6 @@
 import  About from "./About"
-import  FAC from "./FAC"
+import  Fac from "./Fac"
 import  Home from "./Home"
 import  Signup from "./Signup"
 
-export {About, Home, Signup, FAC} 
+export {About, Home, Signup, Fac} 

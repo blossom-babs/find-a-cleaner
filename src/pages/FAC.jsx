@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FAC = () => {
+const Fac = () => {
   return (
     <div>
       find a cleaner page
@@ -8,4 +8,4 @@ const FAC = () => {
   )
 }
 
-export default FAC
+export default Fac
