@@ -20,6 +20,13 @@ body {
   font-size: 16px;
 }
 
+/* smaller screen */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 28px;
+  }
+}
+
 ul {
   list-style-type: none;
 }

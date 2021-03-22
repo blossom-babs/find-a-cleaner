@@ -11,7 +11,7 @@ const Header = () => {
           <p>Don't have the time to clean? 
             We are here to match you with the 
             perfect cleaning service.</p>
-            <button><Link>Find a cleaner</Link></button>
+            <button><Link to="/signup">Find a cleaner</Link></button>
         </div>
       </div>
     </Wrapper>
