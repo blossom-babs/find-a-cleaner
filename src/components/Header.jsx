@@ -24,7 +24,7 @@ const Header = () => {
 };
 
 const Wrapper = styled.header`
-position:relative;
+  position: relative;
   .container {
     font-family: var(--ff-body);
     display: flex;
@@ -61,26 +61,27 @@ position:relative;
 
   /* larger screens */
   @media screen and (min-width: 768px) {
-
     .header__h1 {
-      font-size:3rem;
-      margin-top:1em;
-      width:20ch;
+      font-size: 3rem;
+      margin-top: 1em;
+      width: 20ch;
     }
 
-    .header__p{
-      font-size:2rem;
-      width:50ch;
+    .header__p {
+      font-size: 2rem;
+      width: 50ch;
     }
 
     .header__link {
-      font-size:2rem;
-   
-  }
-  .header__img{
-/* margin-top:-30em; */
-margin-top:-25%;
-  }
+      font-size: 2rem;
+    }
+    .header__img {
+      /* margin-top:-30em; */
+      /* margin-top: -25%; */
+     width:50%;
+     position:absolute;
+     right:0;
+    }
   }
 `;
 
