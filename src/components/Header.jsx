@@ -59,8 +59,11 @@ const Wrapper = styled.header`
     background: var(--clr-base-two);
   }
 
-  /* larger screens */
+  /* ================
+  larger screens 
+  ================= */
   @media screen and (min-width: 768px) {
+    margin-top:8em;
     .header__h1 {
       font-size: 3rem;
       margin-top: 1em;
